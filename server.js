@@ -18,3 +18,5 @@ app.post("/process-video", (req, res) => {
 // Inicializa o servidor na porta definida pelo Vercel
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));
+
+// Alteração para forçar novo deploy
