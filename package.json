@@ -1,0 +1,12 @@
+{
+  "name": "video-backend",
+  "version": "1.0.0",
+  "description": "Backend para processar vídeos com links do YouTube",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
